@@ -331,15 +331,14 @@ Another reason why it is important to use an H-bridge is because DC-motors also 
 
 **6.1. BO MOTOR**
 
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.027.png)
+![image](https://user-images.githubusercontent.com/54531993/181879510-a398f6c5-4ce7-45af-9a6e-148b12dc998c.png)
 
 **Fig 6.1 –** Bo Motor
 **
 `	`DC MOTOR concept is where gears reduce the speed of the vehicle but increase its torque is known as gear reduction. In DC motor is assembled with multiple gear setup. Speed of motor is counted in terms of rotations of the soft per minute is called RPM. RPM means Revolution Per Minute. BO (Battery Operated) light weight DC geared motor which gives good torque and rpm at lower voltages. This motor can run at approximately 300 rpm when driven by a single Li-Ion cell. Great for battery operated light weight robots.
+**6.2. H BRIDGE**
 
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.028.png)**6.2. H BRIDGE**
-
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.029.png)
+![image](https://user-images.githubusercontent.com/54531993/181879533-bbca7762-1554-4535-937d-444ff329caac.png)
 
 **Fig 6.2 –** L298N driver module
 
