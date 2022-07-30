@@ -348,7 +348,7 @@ Another reason why it is important to use an H-bridge is because DC-motors also 
 
 **6.3. BATTERY**
 
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.030.png)
+![image](https://user-images.githubusercontent.com/54531993/181879570-b8806353-1b40-4b9b-a43b-5a42a60c02f0.png)
 
 **Fig 6.3 –** Battery in series
 
@@ -358,15 +358,14 @@ The 9V battery is directly connected to pin number 8 of L293D. The Enable 1-2 &
 
 **6.4. BLUETOOTH**
 
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.031.png)![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.032.jpeg)
+![image](https://user-images.githubusercontent.com/54531993/181879575-de98b51a-b2c8-4768-b23d-47517ec8fabc.png)
 
 **Fig 6.4 –** Bluetooth module HC-05
 
 `	`The HC-05 has two operating modes, one is the Data mode in which it can send and receive data from other Bluetooth devices and the other is the AT Command mode where the default device settings can be changed.
+**6.5. REACTING WHEEL**
 
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.033.png)**6.5. REACTING WHEEL**
-
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.034.png)
+![image](https://user-images.githubusercontent.com/54531993/181879590-e905c592-42b2-4595-a666-5bf807223a27.png)
 
 **Fig 6.5 –** Reacting wheel
 **
@@ -374,7 +373,7 @@ The 9V battery is directly connected to pin number 8 of L293D. The Enable 1-2 &
 
 **6.6. MICROCONTROLLER**
 
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.035.png)
+![image](https://user-images.githubusercontent.com/54531993/181879601-0de61fd6-aa6e-4fbc-aed2-f68307e05089.png)
 
 **Fig 6.6 –** Pico Pi Pin Configuration
 **
@@ -384,205 +383,7 @@ The 9V battery is directly connected to pin number 8 of L293D. The Enable 1-2 &
 
 `                 `A jump wire also known as jumper, jumper wire, DuPont wire is an [electrical wire](https://en.wikipedia.org/wiki/Electrical_wire "Electrical wire"), or group of them in a cable, with a connector or pin at each end sometimes without them simply, which is normally used to interconnect the components of a [breadboard](https://en.wikipedia.org/wiki/Breadboard "Breadboard") or other prototype or test circuit, internally or with other equipment or components, without soldering.** Individual jump wires are fitted by inserting their “end connectors” into the slots provided in a breadboard, the [header connector](https://en.wikipedia.org/wiki/Pin_header#Header_connector "Pin header") of a circuit board, or a piece of test equipment.
 
-![Jumper Wires Male to Male](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.036.jpeg)
-
-
-
-
-
-
-
-
-
-`		`The movement system is an important part of a robot and 
-
-its objective is how to move robot from one point to another 
-
-point. This system has some details which show us how to 
-
-use motors and wheels. There are many kinds of motors and 
-
-wheels. Our choice is dependent on the robot function, 
-
-power, speed, and precision. [4]    
-
-At the beginning of the project, at first, we wanted to use 
-
-two step motors for gaining the best speed and a remarkable 
-
-control but it was too hard and sometimes impossible to 
-
-write a good program for two step motors because each step 
-
-motor has at least four inputs, and moreover we must use 
-
-two motor drivers, L298, for getting the required voltage to 
-
-the motors. 
-
-Actually, it is better to use gearbox motors instead of 
-
-common DC motors because it has gears and an axle and its 
-
-speed does not change towards the top of a hill or downhill. 
-
-Pay attention that the more speed is, the less precision will be; 
-
-thus it is better to choose a motor that has authentic RPM. 
-
-Eventually, we used two DC gearbox motors.
-
-The movement system is an important part of a robot and 
-
-its objective is how to move robot from one point to another 
-
-point. This system has some details which show us how to 
-
-use motors and wheels. There are many kinds of motors and 
-
-wheels. Our choice is dependent on the robot function, 
-
-power, speed, and precision. [4]    
-
-At the beginning of the project, at first, we wanted to use 
-
-two step motors for gaining the best speed and a remarkable 
-
-control but it was too hard and sometimes impossible to 
-
-write a good program for two step motors because each step 
-
-motor has at least four inputs, and moreover we must use 
-
-two motor drivers, L298, for getting the required voltage to 
-
-the motors. 
-
-Actually, it is better to use gearbox motors instead of 
-
-common DC motors because it has gears and an axle and its 
-
-speed does not change towards the top of a hill or downhill. 
-
-Pay attention that the more speed is, the less precision will be; 
-
-thus it is better to choose a motor that has authentic RPM. 
-
-Eventually, we used two DC gearbox motors.
-
-The movement system is an important part of a robot and 
-
-its objective is how to move robot from one point to another 
-
-point. This system has some details which show us how to 
-
-use motors and wheels. There are many kinds of motors and 
-
-wheels. Our choice is dependent on the robot function, 
-
-power, speed, and precision. [4]    
-
-At the beginning of the project, at first, we wanted to use 
-
-two step motors for gaining the best speed and a remarkable 
-
-control but it was too hard and sometimes impossible to 
-
-write a good program for two step motors because each step 
-
-motor has at least four inputs, and moreover we must use 
-
-two motor drivers, L298, for getting the required voltage to 
-
-the motors. 
-
-Actually, it is better to use gearbox motors instead of 
-
-common DC motors because it has gears and an axle and its 
-
-speed does not change towards the top of a hill or downhill. 
-
-Pay attention that the more speed is, the less precision will be; 
-
-thus it is better to choose a motor that has authentic RPM. 
-
-Eventually, we used two DC gearbox motors.
-
-The movement system is an important part of a robot and 
-
-its objective is how to move robot from one point to another 
-
-point. This system has some details which show us how to 
-
-use motors and wheels. There are many kinds of motors and 
-
-wheels. Our choice is dependent on the robot function, 
-
-power, speed, and precision. [4]    
-
-At the beginning of the project, at first, we wanted to use 
-
-two step motors for gaining the best speed and a remarkable 
-
-control but it was too hard and sometimes impossible to 
-
-write a good program for two step motors because each step 
-
-motor has at least four inputs, and moreover we must use 
-
-two motor drivers, L298, for getting the required voltage to 
-
-the motors. 
-
-Actually, it is better to use gearbox motors instead of 
-
-common DC motors because it has gears and an axle and its 
-
-speed does not change towards the top of a hill or downhill. 
-
-Pay attention that the more speed is, the less precision will be; 
-
-thus it is better to choose a motor that has authentic RPM. 
-
-Eventually, we used two DC gearbox motors.
-**
-`			`The movement system is an important part of a robot and 
-
-its objective is how to move robot from one point to another 
-
-point. This system has some details which show us how to 
-
-use motors and wheels. There are many kinds of motors and 
-
-wheels. Our choice is dependent on the robot function, 
-
-power, speed, and precision. [4]    
-
-At the beginning of the project, at first, we wanted to use 
-
-two step motors for gaining the best speed and a remarkable 
-
-control but it was too hard and sometimes impossible to 
-
-write a good program for two step motors because each step 
-
-motor has at least four inputs, and moreover we must use 
-
-two motor drivers, L298, for getting the required voltage to 
-
-the motors. 
-
-Actually, it is better to use gearbox motors instead of 
-
-common DC motors because it has gears and an axle and its 
-
-speed does not change towards the top of a hill or downhill. 
-
-Pay attention that the more speed is, the less precision will be; 
-
-thus it is better to choose a motor that has authentic RPM. 
-
-Eventually, we used
+![image](https://user-images.githubusercontent.com/54531993/181879669-debd6abd-15d5-4f28-88de-0154932cbfd3.png)
 
 **Fig 6.7 –** jump wire
 
@@ -598,6 +399,15 @@ There are different types of jumper wires. Some have the same type of [electric
 
 `	`The PID components were determined by experiments on the bicycle. The KP component was increased until the value made the Self balancing bicycle counteract its own weight when falling to one side. Though the controller was able to counteract the Self balancing bicycle falling it couldn’t counteract the response from the controller and the cube fell to the other side, the system is unstable. To compensate for this response a KD component was added that will counteract the response based on the speed of the error change. Due to the controller having the error as input it will only respond when an error occurs making the system never settling to the set point. Adding a KI component calculating the integral of the error over time will make the system even more stable. Though using this method to find accurate components for the PID controller the system in this project could not stabilize completely, but made the system many times more stable than using no controller.
 
-![](Aspose.Words.755274ce-220a-495a-8c56-e8dd6fac9353.037.png)
+![image](https://user-images.githubusercontent.com/54531993/181879686-4d57af54-546e-491e-9e6d-6370811b3c6c.png)
 
 **Fig 6.8** – Analysis of Stabilization
+**PICTURE** 
+
+
+![image](https://user-images.githubusercontent.com/54531993/181879714-085e1898-84da-402e-8eb0-e3601b9daee7.png)
+
+
+
+![image](https://user-images.githubusercontent.com/54531993/181879724-c6592a66-8e7b-4c1f-84d7-742178bad97c.png)
+
